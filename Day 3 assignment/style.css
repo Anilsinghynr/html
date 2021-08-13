@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.one_child,img{
+    width: 350px;
+    height: 350px;
+}
+
+.one{
+    width: 100%;
+    border: 1px dotted steelblue;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border: 1px dashed yellowgreen;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.two_child{
+    width: 350px;
+    height: 350px;
+    background-color: wheat;
+}
